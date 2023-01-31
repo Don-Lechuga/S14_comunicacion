@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IndexComponent } from './index/index.component';
 import { DataBindingModule } from '../data-binding/data-binding.module';
+import { ComunicacionModule } from '../comunicacion/comunicacion.module';
 
 
 
@@ -11,7 +12,8 @@ import { DataBindingModule } from '../data-binding/data-binding.module';
   ],
   imports: [
     CommonModule,
-    DataBindingModule
+    DataBindingModule,
+    ComunicacionModule
   ],
   exports: [
     IndexComponent

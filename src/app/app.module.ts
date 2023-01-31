@@ -7,7 +7,7 @@ import { IndexModule } from './index/index.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
